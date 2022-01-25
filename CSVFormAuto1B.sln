@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVFormAuto1B", "CSVFormAuto1B\CSVFormAuto1B.csproj", "{BEF645B4-5148-45E2-BA2F-0A0363E1C1F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF645B4-5148-45E2-BA2F-0A0363E1C1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF645B4-5148-45E2-BA2F-0A0363E1C1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF645B4-5148-45E2-BA2F-0A0363E1C1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF645B4-5148-45E2-BA2F-0A0363E1C1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D9422B-D9E2-411C-B6F0-E0C0158C5362}
+	EndGlobalSection
+EndGlobal
