@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CSVFormAuto1B
 {
-    public partial class FormHlavni : Form
+    public partial class FormEditujAuto : Form
     {
-        public FormHlavni()
+        public FormEditujAuto()
         {
             InitializeComponent();
         }

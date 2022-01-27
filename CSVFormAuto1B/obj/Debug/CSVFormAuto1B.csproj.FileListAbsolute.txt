@@ -1,0 +1,10 @@
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\bin\Debug\CSVFormAuto1B.exe.config
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\bin\Debug\CSVFormAuto1B.exe
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\bin\Debug\CSVFormAuto1B.pdb
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.csprojAssemblyReference.cache
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.Form1.resources
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.Properties.Resources.resources
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.csproj.GenerateResource.cache
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.csproj.CoreCompileInputs.cache
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.exe
+C:\Users\aska.NETOFFICE\Desktop\CSVFormAuto1B\CSVFormAuto1B\obj\Debug\CSVFormAuto1B.pdb
