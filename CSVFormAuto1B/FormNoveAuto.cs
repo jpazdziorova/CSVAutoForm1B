@@ -16,5 +16,10 @@ namespace CSVFormAuto1B
         {
             InitializeComponent();
         }
+
+        private void BtnPridejAuto_Click(object sender, EventArgs e)
+        {
+            Soubor.PridejAuto(TxtNazev.Text, int.Parse(TxtCena.Text));
+        }
     }
 }

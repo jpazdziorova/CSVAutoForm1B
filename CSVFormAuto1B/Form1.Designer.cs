@@ -44,6 +44,7 @@
             this.BtnNoveAuto.TabIndex = 0;
             this.BtnNoveAuto.Text = "Nové auto";
             this.BtnNoveAuto.UseVisualStyleBackColor = true;
+            this.BtnNoveAuto.Click += new System.EventHandler(this.BtnNoveAuto_Click);
             // 
             // BtnEditujAuto
             // 
@@ -53,6 +54,7 @@
             this.BtnEditujAuto.TabIndex = 1;
             this.BtnEditujAuto.Text = "Edituj Auto";
             this.BtnEditujAuto.UseVisualStyleBackColor = true;
+            this.BtnEditujAuto.Click += new System.EventHandler(this.BtnEditujAuto_Click);
             // 
             // BtnOdstranAuto
             // 
@@ -71,6 +73,7 @@
             this.BtnUloz.TabIndex = 3;
             this.BtnUloz.Text = "Ulož do souboru";
             this.BtnUloz.UseVisualStyleBackColor = true;
+            this.BtnUloz.Click += new System.EventHandler(this.BtnUloz_Click);
             // 
             // LBAuta
             // 
@@ -102,6 +105,7 @@
             this.Controls.Add(this.BtnNoveAuto);
             this.Name = "FormHlavni";
             this.Text = "Evidence aut";
+            this.Load += new System.EventHandler(this.FormHlavni_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

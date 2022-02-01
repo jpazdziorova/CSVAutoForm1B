@@ -14,27 +14,21 @@ namespace CSVFormAuto1B
         //načítat auta z CSV souboru
         //výpis všech aut na konzoli
 
-        private List<Auto> Auta;
-        private string soubor;  //název souboru
+        public static List<Auto> Auta=new List<Auto>();
 
-        //parametrický konstruktor
-        public Soubor(string soubor)
-        {
-            this.soubor = soubor;
-            Auta = new List<Auto>();
-        }
+        
 
         //metoda vytváří instanci třídy Auto a auto přidá do Listu
-        public void PridejAuto(string nazev, int cena)
+        public static void PridejAuto(string nazev, int cena)
         {
             Auto noveauto = new Auto(nazev, cena);
             //přidání do Listu
             Auta.Add(noveauto);
         }
         //metoda uloz zajistí uložení celého seznamu Auta do csv souboru
-        public void Uloz()
+        public static void Uloz()
         {
-            using (StreamWriter sw = new StreamWriter(soubor))
+            using (StreamWriter sw = new StreamWriter("Cars.csv"))
             {
                 foreach (Auto a in Auta)
                 {
@@ -48,10 +42,12 @@ namespace CSVFormAuto1B
         }
 
         //metoda Nacti zajistí načtení obsahu souboru do seznamu Auta
-        public void Nacti()
+        public static void Nacti()
         {
             Auta.Clear(); //vymazání obsahu seznamu Auta
-            using (StreamReader sr = new StreamReader(soubor))
+            if (!File.Exists("Cars.csv")) File.Create("Cars.csv");
+            
+            using (StreamReader sr = new StreamReader("Cars.csv"))
             {
                 string s;
                 while ((s = sr.ReadLine()) != null)

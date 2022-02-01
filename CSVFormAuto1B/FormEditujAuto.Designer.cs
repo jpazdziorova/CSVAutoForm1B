@@ -75,6 +75,7 @@
             this.BtnEditujAuto.TabIndex = 4;
             this.BtnEditujAuto.Text = "Edituj auto";
             this.BtnEditujAuto.UseVisualStyleBackColor = true;
+            this.BtnEditujAuto.Click += new System.EventHandler(this.BtnEditujAuto_Click);
             // 
             // FormEditujAuto
             // 

@@ -75,6 +75,7 @@
             this.BtnPridejAuto.TabIndex = 4;
             this.BtnPridejAuto.Text = "Přidej auto";
             this.BtnPridejAuto.UseVisualStyleBackColor = true;
+            this.BtnPridejAuto.Click += new System.EventHandler(this.BtnPridejAuto_Click);
             // 
             // FormNoveAuto
             // 
